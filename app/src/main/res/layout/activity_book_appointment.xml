@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".findDoctor.BookAppointmentActivity">
+
+
+    <EditText
+        android:id="@+id/editText_BookApp_Name"
+        android:layout_width="314dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="0dp"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:text="Full Name"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_BookApp_tittle" />
+
+    <EditText
+        android:id="@+id/editText_BookApp_ContactNumber"
+        android:layout_width="306dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@android:drawable/stat_sys_phone_call_on_hold"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:text="Contact Number"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_BookApp_Address" />
+
+    <EditText
+        android:id="@+id/editText_BookApp_Fees"
+        android:layout_width="309dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:text="Fees"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_BookApp_ContactNumber" />
+
+    <EditText
+        android:id="@+id/editText_BookApp_Address"
+        android:layout_width="310dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/home"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:text="Address"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_BookApp_Name" />
+
+    <TextView
+        android:id="@+id/textView_BookApp_Healthcare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24/7 Health Care "
+        android:textColor="@color/design_default_color_secondary"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
+        tools:text="24/7 Health Care " />
+
+    <TextView
+        android:id="@+id/textView_BookApp_tittle"
+        android:layout_width="291dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:text="BookAppointment"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_BookApp_Healthcare" />
+
+    <Button
+        android:id="@+id/button_BookApp_register"
+        android:layout_width="287dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/btn_bg"
+
+        android:text="Book Appointment"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_BookApp_Fees" />
+
+    <Button
+        android:id="@+id/button_BookApp__back"
+        android:layout_width="287dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="24dp"
+
+        android:background="@drawable/btn_bg"
+        android:text="@string/back"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_BookApp_register"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView_BookApp_Select_Date"
+        android:layout_width="89dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="36dp"
+        android:text="Select Date"
+        android:textColor="@color/yellow"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_BookApp_Fees" />
+
+    <TextView
+        android:id="@+id/textView_BookApp_Select_Time"
+        android:layout_width="91dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="36dp"
+        android:text="Select Time"
+        android:textColor="@color/yellow"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_BookApp_Fees" />
+
+    <Button
+        android:id="@+id/button_BA_SL_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Button Select Date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_BookApp_Select_Date" />
+
+    <Button
+        android:id="@+id/button_BA_SL_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="35dp"
+        android:text="Button Select Time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_BookApp_Select_Time" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

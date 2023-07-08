@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HealthCareApp</string>
+    <string name="lab_test">Lab Test </string>
+    <string name="buy_medicine">BUY MEDICINE </string>
+    <string name="find_doctor">FIND DOCTOR </string>
+    <string name="health_articles">HEALTH ARTICLES </string>
+    <string name="order_detail">ORDER DETAIL </string>
+    <string name="log_out">LOG OUT </string>
+    <string name="family_physical">Family Physical </string>
+    <string name="dietcian">Diet Cian </string>
+    <string name="dentist">Dentist </string>
+    <string name="surgeon">Surgeon </string>
+    <string name="cardiologists">Cardiologists </string>
+    <string name="back">Back </string>
+    <string name="Labtest_and_Packages">Labtest and Packages </string>
+    <string name="healthcare_title">24/7 Health Care  </string>
+</resources>
