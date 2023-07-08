@@ -1,9 +1,9 @@
 # 1,Giới thiệu qua về nội dung sản phẩm
-Đây là 1 app moblile android có tên là Health Care App
-App như một ứng dụng quản lí các sản phẩm dịch vụ của một bệnh viện với các chức năng chính: 
-1,Đăng kí tài khoản \n 
-2,Đăng nhập
-3,Chọn gói khám sức khỏe (ứng với chức năng Lab Test)
+Đây là 1 app moblile android có tên là Health Care App  
+App như một ứng dụng quản lí các sản phẩm dịch vụ của một bệnh viện với các chức năng chính:  
+1,Đăng kí tài khoản  
+2,Đăng nhập  
+3,Chọn gói khám sức khỏe (ứng với chức năng Lab Test)  
 4,Mua thuốc(Buy Medicine)
 5,Đăng kí lịch khám với bác sĩ(Find Doctor)
 6,Xem một số lời khuyên để có sức khỏe tốt(healh articles)
