@@ -68,7 +68,6 @@ Mỗi đơn sẽ là 1 thẻ trong một listview cuộn được,mỗi thẻ ch
 
 
 
-![money-icon-vector-illustration](https://github.com/dungd200803btvn/HealthCareApp/assets/130681521/8a2e38e2-6f32-487e-93de-0310adbac5d8)
 
 
 
