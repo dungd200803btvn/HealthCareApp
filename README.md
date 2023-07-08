@@ -11,13 +11,32 @@ App như một ứng dụng quản lí các sản phẩm dịch vụ của một
 8,Thoát(Log out)  
 # 2,Bối cảnh bắt đầu làm sản phẩm  
 -Sau khi có thông báo bắt đầu làm dự án để apply hobo Sun*, đã bắt đầu tạo một dự án mới và thực hiện  
--Lựa chọn đề tài là quản lí bệnh viện vì đây là một vấn đề rất gần gũi,thiết thực,có thể ứng dụng vào thực tế,giúp cho việc khám chữa bệnh của mọi người tiện lợi hơn nhờ  
+-Lựa chọn đề tài là quản lí bệnh viện vì đây là một vấn đề rất gần gũi,thiết thực,có thể ứng dụng vào thực tế,giúp cho việc khám chữa bệnh của mọi người tiện lợi  hơn nhờ
 đặt lịch cũng như chọn thuốc,bác sĩ khám cho hoàn toàn online,không mất thời gian chờ đợi mỗi khi đến bệnh viện  
 # 3 Thời gian làm sản phẩm:   
 Mất khoảng 10 ngày từ ngày có thông báo :28/6/2023 đến 8/7/2023: bao gồm quá trình lên ý tưởng,phác thảo sơ bộ nội dung,bắt đầu code  
 # 4 Vai trò của bản thân:  
 Đây là dự án cá nhân,tự mình xây dựng ý tưởng,phác thảo kế hoạch và code từ đầu đến cuối  
 # 5 Các chức năng của sản phẩm: giới thiệu và demo chi tiết qua vid tự quay và giải thích  
+1,Chức năng đăng kí: cần điền đầy đủ thông tin 4 trường là name,email,password và reset password mới có thể đăng kí thành công   
+Những trường hợp sau: điền thiếu 1 trong các trường,mật khẩu và xác nhận mật khẩu không khớp,mật khẩu ít hơn 8 kí tự,ko chứa ít nhất 1 chữ cái,1 chữ số và 1 kí tự  
+đặc biệt đều sẽ có thông báo đăng kí không thành công và yêu cầu điền lại đến khi thành công mới thôi  
+
+
+2,Chức năng đăng nhập: điền username và pass vừa mới đăng kí thành công mới có thể đăng nhập,nhập sai một trong 2 trường đều yêu cầu nhập lại  
+
+
+3,Màn hình home: chứa 6 thẻ tương ứng với 6 chức năng chính của ứng dụng,bấm vào từng thẻ để trải nghiệm từng tính năng này
+
+
+4,Lab test: khi bấm vào nút này sẽ hiện ra 5 gói khám chữa bệnh cho người dùng sử dụng,mỗi gói có tên gói và giá tiền  
++Khi bấm vào từng packages sẽ chuyển đến màn hình labtest detail: có thông tin chi tiết của gói đó gồm:tên gói,những dịch vụ được sử dụng,giá tiền,    
+trong màn hình này có nút bấm addtoCart để thêm gói này vào giỏ hàng,nút back để quay lại màn hình labtest      
++Sau khi chọn xong có thể bấm vào nút go to cart trên màn hình để xem giỏ hàng hiện tại đã có sản phẩm gì(đây là giỏ dành riêng cho lựa chọn các gói của lab test này)    
++Nút back để quay lại màn hình home
+
+
+5,Buy Medicine:
 Link vid:   
 # 6 Điểm nhấn về mặt kỹ thuật:  
 - Sử dụng ngôn ngữ Java hoàn toàn tự học,chưa hề được dạy trước trên trường  
