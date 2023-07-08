@@ -1,7 +1,7 @@
 # 1,Giới thiệu qua về nội dung sản phẩm
 Đây là 1 app moblile android có tên là Health Care App
 App như một ứng dụng quản lí các sản phẩm dịch vụ của một bệnh viện với các chức năng chính: 
-1,Đăng kí tài khoản
+1,Đăng kí tài khoản \n 
 2,Đăng nhập
 3,Chọn gói khám sức khỏe (ứng với chức năng Lab Test)
 4,Mua thuốc(Buy Medicine)
@@ -14,7 +14,7 @@ App như một ứng dụng quản lí các sản phẩm dịch vụ của một
 -Lựa chọn đề tài là quản lí bệnh viện vì đây là một vấn đề rất gần gũi,thiết thực,có thể ứng dụng vào thực tế,giúp cho việc khám chữa bệnh của mọi người tiện lợi hơn nhờ 
 đặt lịch cũng như chọn thuốc,bác sĩ khám cho hoàn toàn online,không mất thời gian chờ đợi mỗi khi đến bệnh viện
 # 3 Thời gian làm sản phẩm: 
-Mất khoảng 10 ngày từ ngày có thông báo :28/6/2003 đến 8/7/2023: bao gồm quá trình lên ý tưởng,phác thảo sơ bộ nội dung,bắt đầu code
+Mất khoảng 10 ngày từ ngày có thông báo :28/6/2023 đến 8/7/2023: bao gồm quá trình lên ý tưởng,phác thảo sơ bộ nội dung,bắt đầu code
 # 4 Vai trò của bản thân: 
 Đây là dự án cá nhân,tự mình xây dựng ý tưởng,phác thảo kế hoạch và code từ đầu đến cuối
 # 5 Các chức năng của sản phẩm: giới thiệu và demo chi tiết qua vid tự quay và giải thích
