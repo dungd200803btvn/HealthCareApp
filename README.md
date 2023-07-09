@@ -74,7 +74,7 @@ Mỗi đơn sẽ là 1 thẻ trong một listview cuộn được,mỗi thẻ ch
 
 
 
-Link vid:   
+Link vid:  https://drive.google.com/drive/folders/1vZdBzQH5griwUf_-zDCiNPLTMZZ44isj?usp=sharing 
 # 6 Điểm nhấn về mặt kỹ thuật:  
 - Sử dụng ngôn ngữ Java hoàn toàn tự học,chưa hề được dạy trước trên trường  
 - Sử dụng các framework của android như Android Material, SQLite: không cần kết nối với phầm mềm quản trị SQL mà thực hiện hoàn toàn trên app  
